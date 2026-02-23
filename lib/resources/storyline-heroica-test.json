@@ -1,0 +1,55 @@
+[
+    {
+        "name": "dradia beach",
+        "sequence": 0,
+        "content": {
+            "landing": {
+                "order": 0,
+                "chat": [
+                    {
+                        "source": "narrator",
+                        "dialogue": "The sand scrapes underneath the ship that carries your party as it comes to land."
+                    }
+                ],
+                "options": [
+                    { "title": "Turn left", "ref": "leftward" },
+                    { "title": "Continue straight", "ref": "onward" }
+                ]
+            },
+            "goblin encounter": {
+                "order": 2,
+                "chat": [
+                    {
+                        "source": "narrator",
+                        "dialogue": ""
+                    },
+                    {
+                        "source": "@goblin-warrior",
+                        "dialogue": ""
+                    }
+                ],
+                "fight": {
+                    "enemies": [
+                        "goblin-brigand",
+                        "goblin-brigand",
+                        "goblin-warrior"
+                    ],
+                    "ref": "raided treasure"
+                }
+            },
+            "raided treasure": {
+                "order": 3,
+                "chat": [
+                    {
+                        "source": "narrator",
+                        "dialogue": ""
+                    }
+                ],
+                "options": [
+                    { "title": "Search for treasure", "ref": "leftover treasure" },
+                    { "title": "Focus on the objective; continue onward", "ref": "waterfall" }
+                ]
+            }
+        }
+    }
+]

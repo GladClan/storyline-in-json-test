@@ -1,0 +1,14 @@
+{
+    "party": [
+        "@main",
+        "@wizard",
+        "@princess"
+    ],
+    "enemies": [
+        "@turpis"
+    ],
+    "ambient": [
+        "narrator",
+        "ambient"
+    ]
+}
